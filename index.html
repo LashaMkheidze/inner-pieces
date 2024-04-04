@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lesson15 - HTML/CSS</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg m-auto">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <h1>Inner Pieces.</h1>
+            <h4>Thoughts on Lifestyle & Mental Health</h4>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">about</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">resources</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="thoughts d-flex">
+        <aside class="left">
+          <img
+            src="https://static.wixstatic.com/media/84770f_231a1c5c6e1d48e5a425809e93319bdc~mv2.jpg/v1/fill/w_950,h_1148,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/84770f_231a1c5c6e1d48e5a425809e93319bdc~mv2.jpg"
+            alt=""
+          />
+        </aside>
+        <aside class="right d-flex align-items-center flex-column">
+          <h2>My Thoughts</h2>
+          <div class="card">
+            <img
+              src="https://static.wixstatic.com/media/f5af78_81b23a68d5ac4cb699ddd6f7fbd93035~mv2_d_3000_2246_s_2.jpg/v1/fill/w_440,h_440,fp_0.50_0.50,q_90,enc_auto/f5af78_81b23a68d5ac4cb699ddd6f7fbd93035~mv2_d_3000_2246_s_2.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <a href="#">
+                <h5 class="card-title">Detoxing my social media feed</h5>
+                <p class="card-text">
+                  Create a blog post subtitle that summarizes your post in a few
+                  short, punchy sentences and entices your audience to continue
+                  reading....
+                </p></a
+              >
+            </div>
+          </div>
+          <a href="#">
+            <button>All Posts</button>
+          </a>
+        </aside>
+      </section>
+    </main>
+  </body>
+</html>
